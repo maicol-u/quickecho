@@ -1,0 +1,20 @@
+{
+    "name": "quickecho/quickecho",
+    "description": "Un microframework en PHP",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Models\\": "Models/",
+            "Controllers\\": "Controllers/",
+            "Http\\": "Http/",
+            "Views\\": "Views/",
+            "Middlewares\\": "Middlewares/"
+        }
+    },
+    "license": "MIT"
+}
