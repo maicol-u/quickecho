@@ -8,7 +8,7 @@ use Core\View;
 $app = new Router();
 
 $app->get('/', function () {
-    View::render('views/Home.php');
+    View::render('Views/Home.php');
 });
 
 $app->get('/users', 'UserController@getUsers', [logMiddleware()]);
